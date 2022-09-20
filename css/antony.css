@@ -32,3 +32,29 @@ body{
     border: 10px dashed red;
     margin: 0;
  }
+ .gallery {
+   display: grid;
+   grid-template-columns: 250px 250px 250px;
+   border: 20px dashed black ;
+   width: 90%;
+   margin: auto;
+   justify-content: center;
+ }
+
+ .gallery img {
+   width: 80%;
+   border: 2px solid red;
+   justify-content: center;
+ }
+ header img {
+   border: none;
+   width: 97%;
+   justify-content: center;
+
+ }
+
+ #spanLong{
+   grid-column: 1/span 3;
+   justify-content: center;
+   width: 95%;
+ }
